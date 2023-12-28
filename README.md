@@ -1,28 +1,33 @@
 # Pix-Analytics-Desvendando-Padr-es-Identificando-Fraudes-e-Maximizando-o-Valor-do-Cliente
 
 
-Análise de Transações PIX - README
+# Análise de Transações PIX - README
 
-Introdução
+## Introdução
 
 Bem-vindo ao repositório de análise de transações PIX do cliente Jonathan Gonsalve. Este projeto tem como objetivo realizar uma análise completa dos dados de transações PIX, identificar padrões de uso, detectar possíveis fraudes e fornecer insights estratégicos para maximizar o valor do cliente.
 
-Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto é organizado da seguinte forma:
 
-notebooks: Contém os notebooks Jupyter utilizados na análise, incluindo a limpeza e pré-processamento dos dados, análise exploratória, engenharia de recursos e modelagem.
-data: Armazena o conjunto de dados utilizado, no formato JSON, conforme especificado no caso.
-scripts: Inclui scripts utilitários, se aplicável.
-results: Pode conter resultados intermediários ou finais, como visualizações gráficas, tabelas ou modelos treinados.
-Ambiente de Desenvolvimento
+- **notebooks**: Contém os notebooks Jupyter utilizados na análise, incluindo a limpeza e pré-processamento dos dados, análise exploratória, engenharia de recursos e modelagem.
 
-Pré-requisitos
+- **data**: Armazena o conjunto de dados utilizado, no formato JSON, conforme especificado no caso.
+
+- **scripts**: Inclui scripts utilitários, se aplicável.
+
+- **results**: Pode conter resultados intermediários ou finais, como visualizações gráficas, tabelas ou modelos treinados.
+
+## Ambiente de Desenvolvimento
+
+### Pré-requisitos
+
 Certifique-se de ter o ambiente de desenvolvimento configurado corretamente. Utilize o seguinte comando para instalar as dependências necessárias:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+
 Notebooks
 Os notebooks estão organizados de acordo com as etapas do processo de análise. Recomenda-se executar na ordem apresentada para uma compreensão sequencial.
 
